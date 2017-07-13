@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+<div class="jumbotron">
+  <div class = "container">
+    <h1>Welcome</h1>
+    <p style="font-size:20px">"I think for and think for months and years. Ninety-nine times, the conclusion is false.
+        The hundreth time I am right."</p>
+    <i>- Albert Einstein</i>
+  </div>
+</div>
+<div class="wrapper">
+<div class="page-header" >
+  <h3 >Latest Posts<a href="posts/new" class="btn btn-info" role="button" style="float: right">NEW POST</a></h3>
+
+</div>
+
+<% @posts.each do |post| %>
+<div class="post">
+<h2 class="title"><%= link_to post.title,post %></h2>
+	<div class="entry"><%= post.content %></div>
+	<div class="byline">
+			<p class="meta"> Posted by <%= post.author %> | <%=post.created_at%> </p>
+			<p class="links"><p class="links"> Category : <%= post.category %></p></p>
+	</div>
+</div>
+<% end %>
+</div>
+
+
+<!-- <table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Category</th>
+      <th>Author</th>
+      <th>Content</th>
+      <th colspan="4"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.title %></td>
+        <td><%= post.category %></td>
+        <td><%= post.author %></td>
+        <td><%= post.content %></td>
+        <td><%= link_to 'Show', post %></td>
+        <td><%= link_to 'Edit', edit_post_path(post) %></td>
+        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table> -->
+
+<br>

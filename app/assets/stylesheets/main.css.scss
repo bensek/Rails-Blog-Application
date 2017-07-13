@@ -1,0 +1,169 @@
+
+.jumbotron{
+  background-color: #6495ED;
+  height: 350px;
+  color: white;
+  text-align: center;
+}
+
+.page-header{
+font-weight: 100;
+text-transform: uppercase;
+color: black;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 58px;
+line-height: 54px;
+}
+
+.showhead{
+  background-color: #6495ED
+}
+.notice, .alert{
+  text-align: center;
+  color: #6495ED;
+}
+
+.wrapper{
+  width: 1100px;
+ /* Sets the width of the elements to be 1152 pixels. */
+
+ margin: 0 auto;
+ /* Shorthand for margin. Auto on left and right allows .wrap to be centered in the browser */
+}
+.loginwrap{
+  padding-top: 65px;
+  text-align: center;
+  h3{
+    color: #6495ED;
+  }
+}
+.showhead{
+  background-color: #6495ED;
+  height: 100px;
+  padding-top: 13px;
+
+}
+.showpost{
+  padding-top: 65px;
+  width: 800px;
+  text-align: left;
+  margin: 0 auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+
+  h2{
+    color: white;
+    text-align: center;
+    border-bottom: 2px;
+    text-transform: uppercase;
+
+  }
+  #author{
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #6495ED;
+  }
+  #content{
+    margin-top: 10px
+  }
+  #comments{
+    color: #6495ED;
+    margin-top: 20px;
+
+
+
+
+  }
+
+}
+
+.editpost, .newpost, h1 {
+  padding-top: 65px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+
+#admin_links {
+  border-top: 1px solid #F0FFFF;
+  border-bottom: 1px solid #F0FFFF;
+  text-align:center;
+  padding: 1em 0;
+  margin: 2em 0;
+  a{
+    color: lightness(#6495ED);
+    margin: 0 1em;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+  }
+}
+
+
+body{
+  background:white;
+  margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #6F6F6F;}
+
+  .post .entry {
+  	padding-bottom: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+  .post  {
+    box-sizing: border-box;
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.post, .meta {
+	float: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.post, .links {
+	float: right;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+//
+// /* FULL POST */
+// .post_full  p{
+//     padding:0;
+//     margin:0;
+// }
+//
+// .post_full {
+//     clear: both;
+// 	overflow: hidden;
+// 	margin-bottom: 15px;
+//         padding:5px;
+//         background:black;
+//         color:#fff;
+//         border-left:5px #D93544 solid;
+// }
+#footer {
+	width: 980px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #847F7E;
+}
+
+#footer a {
+	color: #847F7E;
+}

@@ -1,0 +1,16 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role= "navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/posts">Team8</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="/posts">HOME</a></li>
+      <li><a href="pages/about">ABOUT ME</a></li>
+      <li><a href="pages/contact">CONTACT</a></li>
+      <% if user_signed_in? %>
+      <li><a data-confirm="Are you sure?" data-method="delete" href="users/sign_out" rel="nofollow">Sign Out</a></li>
+    <% end%>
+    </ul>
+
+  </div>
+</nav>
